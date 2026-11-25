@@ -1,0 +1,14 @@
+name: Plugin
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  oiap:
+    name: Generated plugin files are up to date
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: fboldo/oiap@v0.5.0

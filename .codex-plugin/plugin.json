@@ -1,0 +1,30 @@
+{
+  "name": "esyurl",
+  "version": "0.1.0",
+  "description": "Short links and trackable QR codes with esyURL: shorten URLs, render styled QR codes, change where printed or shared links point, route visitors by device or country, and read click and scan stats.",
+  "author": {
+    "name": "esyURL",
+    "url": "https://esyurl.fyi"
+  },
+  "homepage": "https://esyurl.fyi",
+  "repository": "https://github.com/esyurl/agent-plugin",
+  "license": "MIT",
+  "keywords": [
+    "short-links",
+    "url-shortener",
+    "qr-code",
+    "redirects",
+    "analytics",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "esyURL",
+    "shortDescription": "Short links and trackable QR codes with esyURL: shorten URLs, render styled QR codes, change where printed or shared links point, route visitors by device or country, and read click and scan stats.",
+    "developerName": "esyURL",
+    "category": "productivity",
+    "websiteURL": "https://esyurl.fyi",
+    "logo": "./assets/icon.png"
+  },
+  "mcpServers": "./.mcp.json"
+}

@@ -5,15 +5,30 @@
     "url": "https://esyurl.fyi"
   },
   "metadata": {
-    "description": "esyURL plugins for Claude Code: short links and QR codes your agent manages."
+    "description": "esyURL plugins for AI agents: short links and QR codes your agent manages."
   },
   "plugins": [
     {
       "name": "esyurl",
-      "source": "./plugins/esyurl",
+      "source": "./",
       "description": "Short links and trackable QR codes: editable after printing, device and country routing, click and scan stats.",
-      "category": "productivity",
-      "homepage": "https://esyurl.fyi"
+      "version": "0.1.0",
+      "author": {
+        "name": "esyURL",
+        "url": "https://esyurl.fyi"
+      },
+      "homepage": "https://esyurl.fyi",
+      "repository": "https://github.com/esyurl/agent-plugin",
+      "license": "MIT",
+      "keywords": [
+        "short-links",
+        "url-shortener",
+        "qr-code",
+        "redirects",
+        "analytics",
+        "mcp"
+      ],
+      "category": "productivity"
     }
   ]
 }
