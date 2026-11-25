@@ -26,6 +26,10 @@ export default definePlugin({
       "antigravity",
       "github-copilot-cli",
       "vscode-copilot-chat",
+      // Project-local hosts, installed with npx install-agent-plugin.
+      "cline",
+      "opencode",
+      "windsurf",
     ],
     marketplace: {
       name: "esyurl",
@@ -48,7 +52,15 @@ export default definePlugin({
     {
       id: "esyurl",
       // Codex and Cursor share Claude Code's .mcp.json (see targetMetadata).
-      targets: ["agent-plugins", "claude-code", "gemini-cli", "antigravity"],
+      targets: [
+        "agent-plugins",
+        "claude-code",
+        "gemini-cli",
+        "antigravity",
+        "cline",
+        "opencode",
+        "windsurf",
+      ],
       transport: "mcp-http",
       tools: [],
       server: { url: "https://esyurl.fyi/mcp" },

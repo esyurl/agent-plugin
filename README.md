@@ -17,6 +17,18 @@ scan stats.
 | Antigravity | `agy plugin install https://github.com/esyurl/agent-plugin` |
 | Cursor | Import `esyurl/agent-plugin` as a team marketplace |
 
+Any agent, including Cline, OpenCode and Windsurf, which read plugins from your
+project:
+
+```sh
+npx install-agent-plugin esyurl/agent-plugin --agent <agent>
+```
+
+`<agent>` is one of `claude-code`, `codex`, `cursor`, `gemini-cli`,
+`github-copilot-cli`, `vscode-copilot-chat`, `antigravity`, `cline`,
+`opencode` or `windsurf`. Add `--global` to install for your user instead of
+the current project.
+
 The first time a tool runs, your agent opens esyurl.fyi in the browser to sign
 in: create an account in one click, sign in with email, or paste an existing
 `esy_` key. No key goes in any config file.
