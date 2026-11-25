@@ -14,10 +14,11 @@ apart from clicks.
 ## Signing in
 
 This plugin connects the `esyurl` MCP server; use its tools. The first time a
-tool is called, Claude Code asks the user to sign in to esyurl.fyi in the
-browser (one-click account, email, or an existing key). If a tool answers
-that authentication is needed, tell the user to run `/mcp`, pick `esyurl` and
-authenticate. Never ask the user to paste a key into the chat.
+tool is called, the user's agent app asks them to sign in to esyurl.fyi in the
+browser (one-click account, email, or an existing key). If a tool answers that
+authentication is needed, tell the user to sign in to the `esyurl` MCP server
+from their app; in Claude Code, run `/mcp`, pick `esyurl` and authenticate.
+Never ask the user to paste a key into the chat.
 
 ## Pick the right kind
 

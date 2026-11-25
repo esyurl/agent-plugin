@@ -1,14 +1,16 @@
 {
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
   "name": "esyurl",
+  "displayName": "esyURL",
   "description": "Short links and trackable QR codes with esyURL: shorten URLs, render styled QR codes, change where printed or shared links point, route visitors by device or country, and read click and scan stats.",
   "version": "0.1.0",
+  "logo": "assets/icon.png",
   "author": {
     "name": "esyURL",
     "url": "https://esyurl.fyi"
   },
   "homepage": "https://esyurl.fyi",
-  "privacyPolicyUrl": "https://esyurl.fyi/legal/privacy",
-  "repository": "https://github.com/esyurl/claude-plugin",
+  "repository": "https://github.com/esyurl/agent-plugin",
   "license": "MIT",
   "keywords": [
     "short-links",

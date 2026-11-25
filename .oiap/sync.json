@@ -1,0 +1,48 @@
+{
+	"plugin": "esyurl",
+	"version": "0.1.0",
+	"layout": "root",
+	"targets": {
+		"agent-plugins": {
+			"directory": "",
+			"status": "ok"
+		},
+		"gemini-cli": {
+			"directory": "",
+			"status": "ok"
+		},
+		"antigravity": {
+			"directory": "",
+			"status": "ok"
+		},
+		"claude-code": {
+			"directory": "",
+			"status": "ok"
+		},
+		"codex": {
+			"directory": "",
+			"status": "ok"
+		},
+		"cursor": {
+			"directory": "",
+			"status": "ok"
+		}
+	},
+	"files": {
+		".agents/plugins/marketplace.json": "b4a524c77b7adbe5d571e65ab02edb6d0acf8cbb5a4c6206361a555151e74f9d",
+		".antigravity-plugin/plugin.json": "ff75f1f77d82e8e5069e4f3ea9c89ac8a170d55f4d524e47dbee0a37bdd60c78",
+		".claude-plugin/marketplace.json": "8508fb0dffcb41a4ee5d4c3641b933ae85a79682696bbe462af1359e925396e8",
+		".claude-plugin/plugin.json": "0a9045c49c41b3e5e2da341b34ac3094883f6ad5d38d8a296c59ee049fa0e920",
+		".codex-plugin/plugin.json": "bbdeba9d17d1fc8fe9b613f61b767bdec6d0db9772931463415266bc0dcde3fe",
+		".cursor-plugin/marketplace.json": "8508fb0dffcb41a4ee5d4c3641b933ae85a79682696bbe462af1359e925396e8",
+		".cursor-plugin/plugin.json": "83ac09c03fd9e10e419a9789dafea007cd26de49135cc499e477b99899b0d0bd",
+		".github/plugin/marketplace.json": "8508fb0dffcb41a4ee5d4c3641b933ae85a79682696bbe462af1359e925396e8",
+		".mcp.json": "9dba4b932f8dee70d7268e319244ce6ca533b08ff79be7013a6d1c6b40c7af35",
+		"gemini-extension.json": "7a62502f518b13373bc0a2c48314d624a36f307e9333f878ea27929bb9018b25",
+		"mcp_config.json": "cadd66f5ddeefd14835976bca7d09df1ef8fcbf31b3a4956111275be705739d5",
+		"mcp.json": "839e5aab3b10ce92174a9fada16112a5f57f08edb622c96b7256c35217b83ea8",
+		"plugin.json": "bc3acc47241806bde4f64a32dd31ab5124877bbad8652c8299131dcc2eb3a356",
+		"skills/esyurl-qr-codes/SKILL.md": "18488e17462b4cf95649a5e77c8b7b30ec0ff7501f87f31d09e8ca3aad782887",
+		"skills/esyurl-short-links/SKILL.md": "87c0ec75b2772b282a5b4e2df3b6eca9fc28506195408ddfef35190f17992cb0"
+	}
+}

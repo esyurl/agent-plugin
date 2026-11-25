@@ -1,0 +1,13 @@
+{
+  "name": "esyurl-agent-plugin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "oiap sync",
+    "check": "oiap sync --check"
+  },
+  "devDependencies": {
+    "@oiap/cli": "^0.5.1",
+    "@oiap/core": "^0.5.0"
+  }
+}
